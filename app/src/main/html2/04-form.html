@@ -1,0 +1,79 @@
+<html>
+    <header></header>
+
+    <body>
+        <form action="01-hello.html" method="get">
+            手机号码<input type="text" name="phone"/><br/>
+            密码<input type="password" name="password"/><br/>
+            性别<input type="radio" name="sex" value="nv" checked="checked"/>女<br/>
+                <input type="radio" name="sex" value="nan"/>男<br/>
+            爱好<input type="checkbox" name="love" value="y"/>羽毛球<br/>
+                <input type="checkbox" name="love" value="p"/>乒乓球<br/>
+                <input type="checkbox" name="love" value="s"/>斯诺克<br/>
+            文件<input type="file"/><br/>
+            生日<select name="birthday">
+                <option value="0">请选择</option>
+                <option value="1990" selected="selected">1990</option>
+                <option value="1991">1991</option>
+                </select><br/>
+            自我描述：<textarea name="text" cols="5" rows="5">这个人很懒</textarea><br/>
+            <input type="hidden" name="hidden"/><br/>
+            <input type="submit" value="注册"/><br/>
+            <input type="reset" value="重新注册"/><br/>
+            <input type="button" value="普通按钮"/><br/>
+
+        </form> <br/> <br/> <br/> <br/>
+
+        <h2>注册账号</h2>
+        <form action="01-hello.html" method="get">
+            <table width="100%">
+                <tr>
+                    <td align="right">邮箱</td>
+                    <td><input type="text" name="mail"/></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>可以是<a href="#">账号</a>或者<a href="#">手机号</a>注册 </td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input type="password" name="password"/></td>
+                </tr>
+                <tr>
+                    <td>真实姓名</td>
+                    <td><input type="text" name="realName"/></td>
+                </tr>
+                <tr>
+                    <td>性别</td>
+                    <td><input type="radio" name="sex" value="mail"/>男 &nbsp; <input type="radio" name="sex" value="femail"/>女</td>
+                </tr>
+                <tr>
+                    <td>生日</td>
+                    <td>
+                        <select name="year">
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                        </select>
+                        <select name="month">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="day">
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="image" src="../html/ic_yixue.png"/></td>
+                </tr>
+
+            </table>
+        </form>
+
+
+    </body>
+</html>
